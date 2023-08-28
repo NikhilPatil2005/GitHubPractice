@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nikhil {
+    height: 200px;
+    max-width: 200px;
+    background-color: tomato;
+    margin: 10px;
+    animation-name: nikhil;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    
+}
+
+
+@keyframes nikhil {
+    0% {
+        background-color: lightsalmon;
+        transform: rotate(90deg);
+    }
+    20% {
+        background-color: lightcoral;
+        transform: translateX(100%);
+    }
+    40% {
+        background-color: lightskyblue;
+        transform: skewY(4);
+    }
+    50% {
+        background-color: limegreen;
+        transform: rotate(90deg);
+    }
+    60% {
+        background-color: lightpink;
+        transform: translateY(100%);
+    }
+    80% {
+        background-color: tomato;
+        transform: rotate(90deg);
+    }
+    100% {
+        background-color: turquoise;
+        transform: translateX(100%);
+
+    }
+   
+}
+
